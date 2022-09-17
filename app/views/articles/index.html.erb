@@ -2,6 +2,27 @@
 
 <h1>Articles</h1>
 
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+
+  <tbody>
+  <% @articles.each do |article|%>
+    <tr>
+      <th><%= article.title%></th>
+      <th><%= article.description%></th>
+      <td>Placeholder</td>
+    </tr>
+    <%end%>
+  </tbody>
+</table>
+
+
 <div id="articles">
   <% @articles.each do |article| %>
     <%= render article %>
