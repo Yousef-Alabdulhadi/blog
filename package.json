@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/Yousef-Alabdulhadi/blog#readme",
   "dependencies": {
-    "bootstrap": "5.2.1",
+    "bootstrap": "^5.2.1",
     "jquery": "^3.6.1",
     "popper.js": "^1.16.1"
   }
